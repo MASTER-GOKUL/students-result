@@ -18,6 +18,19 @@ input,button{
   outline: none;
 }
 
+.img{
+background-image: url('logo.png');
+width: 50%;
+background-size: cover;
+  background-position: center;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  margin-top:40%;
+  align-items: center;
+  justify-content: center;
+	}
+
 .main_container{
   min-height: 100vh;
   width: 100%;
