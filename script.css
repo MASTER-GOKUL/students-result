@@ -21,12 +21,13 @@ input,button{
 .img{
 background-image: url('logo.jpg');
 width: 50%;
+height:50%;
 background-size: cover;
   background-position: center;
-  padding: 20px;
+  padding: 30px;
   position: relative;
   display: flex;
-  margin-top:40%;
+  margin-top:20%;
   align-items: center;
   justify-content: center;
 	}
