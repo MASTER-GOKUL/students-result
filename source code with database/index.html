@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Detials</title>
+    <link rel="stylesheet" href="script.css">  
+    <script>
+function validateform(){
+  document.getElementById('S').disabled = true; }
+  </script>    
+</head>
+<body>
+
+<div>
+<center>
+<table>
+<tr>
+<th style="width:400;height:100;">
+<img src="LOGO.png" width="50">
+</th>
+<th>
+<h2>C. ABDUL HAKEEM COLLEGE OF ENGINEERING AND TECHNOLOGY</h2>
+</th>
+</tr>
+</table></center>
+</div>
+
+
+<div class="main_container">
+  <span class="animate" style="--count:5;"></span>
+  <span class="animate" style="--count:3;"></span>
+  <span class="animate" style="--count:4;"></span>
+  <span class="animate" style="--count:2;"></span>
+
+<form methed="get" action="https://script.google.com/macros/s/AKfycbzlZLqo_hYj1j6f3negYKnLEkpTQ9fUpDhQkaxOnTQUH36ltusjxuOyE0kVi1LpxLfGjA/exec" class="login_form" onsubmit="return validateform()">
+    <h1 class="login_form_"><center>Student Login Form</center></h1>
+
+    <div class="group">
+      <input type="text" name="ROLL NO" value=" "/>
+      <label>Student Roll NO:</label>
+      <span class="icon">
+        <i class="fa fa-user"></i>
+      </span>
+    </div>
+
+    <div class="group">
+      <input type="date" name="DOB" value=" "/>
+      <label>Date Of Birth : (dd.mm.yyyy)</label>
+      <span class="icon">
+        <i class="fa fa-key"></i>
+      </span>
+    </div>
+    <center>
+    <button type="submit" id="S">Login</button></center>  </form>
+</div>
+</body>
+</html>
